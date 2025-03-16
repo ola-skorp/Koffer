@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7720B5B92D84B23500390D08 /* ThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720B5B82D84B23500390D08 /* ThingsListView.swift */; };
+		7720B5BD2D84B3FD00390D08 /* ThingsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720B5BC2D84B3FD00390D08 /* ThingsNavigationView.swift */; };
+		7720B5C12D84B5D500390D08 /* ThingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720B5C02D84B5D500390D08 /* ThingView.swift */; };
+		7720B5C32D84BC4600390D08 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720B5C22D84BC4600390D08 /* AppViewModel.swift */; };
+		7720B5C62D84C2FC00390D08 /* TabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720B5C52D84C2FC00390D08 /* TabType.swift */; };
+		7720B5C82D84C37300390D08 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720B5C72D84C37300390D08 /* HomeView.swift */; };
+		7720B5CC2D84CF7900390D08 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720B5CB2D84CF7900390D08 /* DataSource.swift */; };
 		7771CFB12D82D35100ED2AD1 /* KofferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771CFB02D82D35100ED2AD1 /* KofferApp.swift */; };
 		7771CFB32D82D35100ED2AD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771CFB22D82D35100ED2AD1 /* ContentView.swift */; };
 		7771CFB52D82D35300ED2AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7771CFB42D82D35300ED2AD1 /* Assets.xcassets */; };
@@ -14,6 +21,9 @@
 		7771CFC22D82D35300ED2AD1 /* KofferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771CFC12D82D35300ED2AD1 /* KofferTests.swift */; };
 		7771CFCC2D82D35300ED2AD1 /* KofferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771CFCB2D82D35300ED2AD1 /* KofferUITests.swift */; };
 		7771CFCE2D82D35300ED2AD1 /* KofferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771CFCD2D82D35300ED2AD1 /* KofferUITestsLaunchTests.swift */; };
+		77D9D6A22D849F4800F0DA31 /* SuitcasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D6A12D849F4800F0DA31 /* SuitcasesView.swift */; };
+		77D9D6AA2D84A93600F0DA31 /* ThingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D6A92D84A93600F0DA31 /* ThingDetailsView.swift */; };
+		77D9D6AC2D84AC5100F0DA31 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9D6AB2D84AC5100F0DA31 /* Thing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7720B5B82D84B23500390D08 /* ThingsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsListView.swift; sourceTree = "<group>"; };
+		7720B5BC2D84B3FD00390D08 /* ThingsNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsNavigationView.swift; sourceTree = "<group>"; };
+		7720B5C02D84B5D500390D08 /* ThingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingView.swift; sourceTree = "<group>"; };
+		7720B5C22D84BC4600390D08 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		7720B5C52D84C2FC00390D08 /* TabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabType.swift; sourceTree = "<group>"; };
+		7720B5C72D84C37300390D08 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7720B5CB2D84CF7900390D08 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		7771CFAD2D82D35100ED2AD1 /* Koffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7771CFB02D82D35100ED2AD1 /* KofferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KofferApp.swift; sourceTree = "<group>"; };
 		7771CFB22D82D35100ED2AD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,9 @@
 		7771CFC72D82D35300ED2AD1 /* KofferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KofferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7771CFCB2D82D35300ED2AD1 /* KofferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KofferUITests.swift; sourceTree = "<group>"; };
 		7771CFCD2D82D35300ED2AD1 /* KofferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KofferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77D9D6A12D849F4800F0DA31 /* SuitcasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuitcasesView.swift; sourceTree = "<group>"; };
+		77D9D6A92D84A93600F0DA31 /* ThingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetailsView.swift; sourceTree = "<group>"; };
+		77D9D6AB2D84AC5100F0DA31 /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7720B5BE2D84B4FA00390D08 /* thingslist */ = {
+			isa = PBXGroup;
+			children = (
+				7720B5C02D84B5D500390D08 /* ThingView.swift */,
+				7720B5B82D84B23500390D08 /* ThingsListView.swift */,
+				7720B5BC2D84B3FD00390D08 /* ThingsNavigationView.swift */,
+			);
+			path = thingslist;
+			sourceTree = "<group>";
+		};
+		7720B5BF2D84B52F00390D08 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7720B5C52D84C2FC00390D08 /* TabType.swift */,
+				77D9D6AB2D84AC5100F0DA31 /* Thing.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7720B5C42D84BC5000390D08 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				7771CFB22D82D35100ED2AD1 /* ContentView.swift */,
+				7771CFB02D82D35100ED2AD1 /* KofferApp.swift */,
+				7720B5C22D84BC4600390D08 /* AppViewModel.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		7720B5C92D84CA2500390D08 /* thingdetails */ = {
+			isa = PBXGroup;
+			children = (
+				77D9D6A92D84A93600F0DA31 /* ThingDetailsView.swift */,
+			);
+			path = thingdetails;
+			sourceTree = "<group>";
+		};
+		7720B5CA2D84CF6400390D08 /* datasources */ = {
+			isa = PBXGroup;
+			children = (
+				7720B5CB2D84CF7900390D08 /* DataSource.swift */,
+			);
+			path = datasources;
+			sourceTree = "<group>";
+		};
+		7720B5CD2D84D1B000390D08 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				7720B5C72D84C37300390D08 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		7720B5CE2D84D1C300390D08 /* suitcases */ = {
+			isa = PBXGroup;
+			children = (
+				77D9D6A12D849F4800F0DA31 /* SuitcasesView.swift */,
+			);
+			path = suitcases;
+			sourceTree = "<group>";
+		};
 		7771CFA42D82D35100ED2AD1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +175,15 @@
 		7771CFAF2D82D35100ED2AD1 /* Koffer */ = {
 			isa = PBXGroup;
 			children = (
-				7771CFB02D82D35100ED2AD1 /* KofferApp.swift */,
-				7771CFB22D82D35100ED2AD1 /* ContentView.swift */,
+				7720B5CE2D84D1C300390D08 /* suitcases */,
+				7720B5CD2D84D1B000390D08 /* home */,
+				7720B5CA2D84CF6400390D08 /* datasources */,
+				7720B5C92D84CA2500390D08 /* thingdetails */,
+				7720B5C42D84BC5000390D08 /* app */,
+				7720B5BF2D84B52F00390D08 /* model */,
 				7771CFB42D82D35300ED2AD1 /* Assets.xcassets */,
 				7771CFB62D82D35300ED2AD1 /* Preview Content */,
+				7720B5BE2D84B4FA00390D08 /* thingslist */,
 			);
 			path = Koffer;
 			sourceTree = "<group>";
@@ -257,8 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7720B5C32D84BC4600390D08 /* AppViewModel.swift in Sources */,
 				7771CFB32D82D35100ED2AD1 /* ContentView.swift in Sources */,
+				7720B5BD2D84B3FD00390D08 /* ThingsNavigationView.swift in Sources */,
+				7720B5C12D84B5D500390D08 /* ThingView.swift in Sources */,
 				7771CFB12D82D35100ED2AD1 /* KofferApp.swift in Sources */,
+				77D9D6A22D849F4800F0DA31 /* SuitcasesView.swift in Sources */,
+				7720B5CC2D84CF7900390D08 /* DataSource.swift in Sources */,
+				77D9D6AA2D84A93600F0DA31 /* ThingDetailsView.swift in Sources */,
+				7720B5B92D84B23500390D08 /* ThingsListView.swift in Sources */,
+				7720B5C82D84C37300390D08 /* HomeView.swift in Sources */,
+				77D9D6AC2D84AC5100F0DA31 /* Thing.swift in Sources */,
+				7720B5C62D84C2FC00390D08 /* TabType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@ struct KofferApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AppViewModel())
         }
     }
 }
